@@ -1,5 +1,5 @@
 /**
- * Boletín 2 Ejercicio 2; Programa que calcule el area de un cuadrado
+ * Boletín 2 Ejercicio 3; Crea un algoritmo que cambie euros a dólares
  * @version 1.1
  * @author SAUL ALVAREZ MONZON
  */
