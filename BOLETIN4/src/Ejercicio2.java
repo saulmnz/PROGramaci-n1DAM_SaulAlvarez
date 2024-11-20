@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Boletín 3 Ejercicio 2; Dous números de tipo short. Se o primeiro é maior ou igual que o segundo,visualizaremos a resta. En calquera caso visualizaremos a suma.
+ * Boletín 4 Ejercicio 2; Dous números de tipo short. Se o primeiro é maior ou igual que o segundo,visualizaremos a resta. En calquera caso visualizaremos a suma.
  * @version 1.1
  * @author SAUL ALVAREZ MONZON
  */
