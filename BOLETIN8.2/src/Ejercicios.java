@@ -496,9 +496,9 @@ Recibindo unha cadea de caracteres e un caracter, a función terá que comprobar
             System.out.println("Devolverá la cadena que sea anterior algabeticamente :");
 
             if (cadea.compareTo(cadea2) < 0) {
-                System.out.println(cadea);  // Si cadena1 es anterior en orden alfabético
+                System.out.println(cadea);
             } else {
-                System.out.println(cadea2);  // Si cadena2 es anterior en orden alfabético
+                System.out.println(cadea2);
             }
         }
 
@@ -520,7 +520,7 @@ Recibindo unha cadea de caracteres e un caracter, a función terá que comprobar
             String cadena = "ejemplo";
 
 
-            // Crear una nueva cadena del mismo tamaño, pero con el caracter proporcionado
+
             StringBuilder nuevaCadena = new StringBuilder(cadena.length());
             for (int i = 0; i < cadena.length(); i++) {
                 nuevaCadena.append(caracter);
@@ -536,7 +536,7 @@ Recibindo unha cadea de caracteres e un caracter, a función terá que comprobar
             String cadena = "programacion";
             char caracter = 'o';
 
-            // Crear una cadena con guiones donde el caracter se encuentra
+
             StringBuilder resultado = new StringBuilder();
             for (int i = 0; i < cadena.length(); i++) {
                 if (cadena.charAt(i) == caracter) {
@@ -556,9 +556,9 @@ Recibindo unha cadea de caracteres e un caracter, a función terá que comprobar
 
             // Validar el contrasinal
             boolean esValido = contrasinal.length() >= 8
-                    && contrasinal.matches(".*[A-Z].*")  // Contiene al menos una mayúscula
-                    && contrasinal.matches(".*[a-z].*")  // Contiene al menos una minúscula
-                    && contrasinal.matches(".*\\d.*");   // Contiene al menos un número
+                    && contrasinal.matches(".*[A-Z].*")
+                    && contrasinal.matches(".*[a-z].*")
+                    && contrasinal.matches(".*\\d.*");
 
             if (esValido) {
                 System.out.println("El contrasinal es válido.");
@@ -573,7 +573,7 @@ Recibindo unha cadea de caracteres e un caracter, a función terá que comprobar
 
             String nombreApellido = "  juan perez  ";
 
-            // Eliminar espacios y poner en mayúsculas la primera letra de cada palabra
+
             String[] partes = nombreApellido.trim().split(" ");
             StringBuilder resultado = new StringBuilder();
 
@@ -599,7 +599,7 @@ Recibindo unha cadea de caracteres e un caracter, a función terá que comprobar
 
             // Contar palabras y caracteres
             int numPalabras = palabras.length;
-            int numCaracteres = texto.replace(" ", "").length(); // Eliminar espacios para contar caracteres
+            int numCaracteres = texto.replace(" ", "").length();
 
             // Encontrar la palabra más larga
             String palabraMasLarga = "";
